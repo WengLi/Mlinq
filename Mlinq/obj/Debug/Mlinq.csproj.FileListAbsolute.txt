@@ -1,0 +1,20 @@
+c:\users\henry\documents\visual studio 2012\Projects\Mlinq\Mlinq\obj\Debug\Mlinq.csprojResolveAssemblyReference.cache
+c:\users\henry\documents\visual studio 2012\Projects\Mlinq\Mlinq\bin\Debug\Mlinq.dll
+c:\users\henry\documents\visual studio 2012\Projects\Mlinq\Mlinq\bin\Debug\Mlinq.pdb
+c:\users\henry\documents\visual studio 2012\Projects\Mlinq\Mlinq\obj\Debug\Mlinq.dll
+c:\users\henry\documents\visual studio 2012\Projects\Mlinq\Mlinq\obj\Debug\Mlinq.pdb
+D:\Project\Mlinq\Mlinq\bin\Debug\Mlinq.dll
+D:\Project\Mlinq\Mlinq\bin\Debug\Mlinq.pdb
+D:\Project\Mlinq\Mlinq\obj\Debug\Mlinq.dll
+D:\Project\Mlinq\Mlinq\obj\Debug\Mlinq.pdb
+D:\Project\Mlinq\Mlinq\obj\Debug\Mlinq.csprojResolveAssemblyReference.cache
+D:\Project\Mlinq - bak_v5\Mlinq\bin\Debug\Mlinq.dll
+D:\Project\Mlinq - bak_v5\Mlinq\bin\Debug\Mlinq.pdb
+D:\Project\Mlinq - bak_v5\Mlinq\obj\Debug\Mlinq.csprojResolveAssemblyReference.cache
+D:\Project\Mlinq - bak_v5\Mlinq\obj\Debug\Mlinq.dll
+D:\Project\Mlinq - bak_v5\Mlinq\obj\Debug\Mlinq.pdb
+D:\Project\Old\Mlinq - bak_v5\Mlinq\bin\Debug\Mlinq.dll
+D:\Project\Old\Mlinq - bak_v5\Mlinq\bin\Debug\Mlinq.pdb
+D:\Project\Old\Mlinq - bak_v5\Mlinq\obj\Debug\Mlinq.csprojResolveAssemblyReference.cache
+D:\Project\Old\Mlinq - bak_v5\Mlinq\obj\Debug\Mlinq.dll
+D:\Project\Old\Mlinq - bak_v5\Mlinq\obj\Debug\Mlinq.pdb

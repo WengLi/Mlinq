@@ -1,0 +1,24 @@
+D:\Project\Mlinq\Test\bin\Debug\Test.exe.config
+D:\Project\Mlinq\Test\bin\Debug\Test.exe
+D:\Project\Mlinq\Test\bin\Debug\Test.pdb
+D:\Project\Mlinq\Test\bin\Debug\Mlinq.dll
+D:\Project\Mlinq\Test\bin\Debug\Mlinq.pdb
+D:\Project\Mlinq\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Project\Mlinq\Test\obj\Debug\Test.exe
+D:\Project\Mlinq\Test\obj\Debug\Test.pdb
+D:\Project\Mlinq - bak_v5\Test\bin\Debug\Test.exe.config
+D:\Project\Mlinq - bak_v5\Test\obj\Debug\Test.exe
+D:\Project\Mlinq - bak_v5\Test\obj\Debug\Test.pdb
+D:\Project\Mlinq - bak_v5\Test\bin\Debug\Test.exe
+D:\Project\Mlinq - bak_v5\Test\bin\Debug\Test.pdb
+D:\Project\Mlinq - bak_v5\Test\bin\Debug\Mlinq.dll
+D:\Project\Mlinq - bak_v5\Test\bin\Debug\Mlinq.pdb
+D:\Project\Mlinq - bak_v5\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Project\Old\Mlinq - bak_v5\Test\bin\Debug\Test.exe.config
+D:\Project\Old\Mlinq - bak_v5\Test\obj\Debug\Test.exe
+D:\Project\Old\Mlinq - bak_v5\Test\obj\Debug\Test.pdb
+D:\Project\Old\Mlinq - bak_v5\Test\bin\Debug\Test.exe
+D:\Project\Old\Mlinq - bak_v5\Test\bin\Debug\Test.pdb
+D:\Project\Old\Mlinq - bak_v5\Test\bin\Debug\Mlinq.dll
+D:\Project\Old\Mlinq - bak_v5\Test\bin\Debug\Mlinq.pdb
+D:\Project\Old\Mlinq - bak_v5\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache

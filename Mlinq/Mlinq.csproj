@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{946352F1-9DD5-4000-B7BF-CF8F4969DD76}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mlinq</RootNamespace>
+    <AssemblyName>Mlinq</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Check.cs" />
+    <Compile Include="Common\ExpressionExtensions.cs" />
+    <Compile Include="Common\IEnumerableExtensions.cs" />
+    <Compile Include="Common\PropertyInfoExtensions.cs" />
+    <Compile Include="Common\StringExtensions.cs" />
+    <Compile Include="Common\TypeExtensions.cs" />
+    <Compile Include="Core\IServices\ISqlQuery.cs" />
+    <Compile Include="Core\IServices\ISqlQueryProvider.cs" />
+    <Compile Include="Core\IServices\SqlQuery.cs" />
+    <Compile Include="Core\LinqPredicate\AndPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\BinaryPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\CastPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\ComparisonPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\ConstantPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\DbCommandTrees\DbCommandTree.cs" />
+    <Compile Include="Core\LinqPredicate\DbCommandTrees\DbCommandTreeKind.cs" />
+    <Compile Include="Core\LinqPredicate\DbCommandTrees\DbQueryCommandTree.cs" />
+    <Compile Include="Core\LinqPredicate\ElementPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\FilterPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\IsNullPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\NewInstancePredicate.cs" />
+    <Compile Include="Core\LinqPredicate\NotPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\OrPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\PredicateBuilder.cs" />
+    <Compile Include="Core\LinqPredicate\PredicateList.cs" />
+    <Compile Include="Core\LinqPredicate\Predicate.cs" />
+    <Compile Include="Core\LinqPredicate\PredicateBinding.cs" />
+    <Compile Include="Core\LinqPredicate\PredicateType.cs" />
+    <Compile Include="Core\LinqPredicate\PredicateVisitor.cs" />
+    <Compile Include="Core\LinqPredicate\ProjectPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\PropertyPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\ScanPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\UnaryPredicate.cs" />
+    <Compile Include="Core\LinqPredicate\VariableReferencePredicate.cs" />
+    <Compile Include="Core\Metadata\BuiltInTypeKind.cs" />
+    <Compile Include="Core\Metadata\CollectionType.cs" />
+    <Compile Include="Core\Metadata\EdmConstants.cs" />
+    <Compile Include="Core\Metadata\EdmType.cs" />
+    <Compile Include="Core\Metadata\EntityProperty.cs" />
+    <Compile Include="Core\Metadata\EntitySet.cs" />
+    <Compile Include="Core\Metadata\EntityType.cs" />
+    <Compile Include="Core\Metadata\MetadataItem.cs" />
+    <Compile Include="Core\Metadata\PrimitiveType.cs" />
+    <Compile Include="Core\Metadata\PrimitiveTypeKind.cs" />
+    <Compile Include="Core\Metadata\RowType.cs" />
+    <Compile Include="Core\Metadata\TypeUsage.cs" />
+    <Compile Include="Core\Objects\AliasGenerator.cs" />
+    <Compile Include="Core\Objects\BindingContext.cs" />
+    <Compile Include="Core\Objects\CodeGenEmitter.cs" />
+    <Compile Include="Core\Objects\Enumerators\SimpleEnumerator.cs" />
+    <Compile Include="Core\Objects\Enumerators\LazyEnumerator.cs" />
+    <Compile Include="Core\Objects\LinqMethods\ReflectionUtil.cs" />
+    <Compile Include="Core\Objects\LinqMethods\SelectTranslator.cs" />
+    <Compile Include="Core\Objects\ObjectQuery.cs" />
+    <Compile Include="Core\Objects\ObjectQueryProvider.cs" />
+    <Compile Include="Core\Objects\ObjectResult.cs" />
+    <Compile Include="Core\Objects\PredicateConverter.cs" />
+    <Compile Include="Core\Objects\LinqMethods\OneLambdaTranslator.cs" />
+    <Compile Include="Core\Objects\LinqMethods\SequenceMethod.cs" />
+    <Compile Include="Core\Objects\LinqMethods\SequenceMethodTranslator.cs" />
+    <Compile Include="Core\Objects\LinqMethods\WhereTranslator.cs" />
+    <Compile Include="Core\Objects\Shaper.cs" />
+    <Compile Include="Core\Objects\Translators\ConstantTranslator.cs" />
+    <Compile Include="Core\Objects\Translators\EqualsTranslator.cs" />
+    <Compile Include="Core\Objects\Translators\MemberAccessTranslator.cs" />
+    <Compile Include="Core\Objects\Translators\MethodCallTranslator.cs" />
+    <Compile Include="Core\Objects\Translators\NewTranslator.cs" />
+    <Compile Include="Core\Objects\Translators\NotSupportedTranslator.cs" />
+    <Compile Include="Core\Objects\Translators\Translator.cs" />
+    <Compile Include="Core\Objects\Translators\TypedTranslator.cs" />
+    <Compile Include="DbContext.cs" />
+    <Compile Include="DbSet.cs" />
+    <Compile Include="IDbSet.cs" />
+    <Compile Include="Internal\DbSetDiscoveryService.cs" />
+    <Compile Include="Internal\EntitySetCache.cs" />
+    <Compile Include="Internal\EntitySetTypePair.cs" />
+    <Compile Include="Internal\InternalSet.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlGen\BoolWrapper.cs" />
+    <Compile Include="SqlGen\ISqlFragment.cs" />
+    <Compile Include="SqlGen\JoinSymbol.cs" />
+    <Compile Include="SqlGen\OptionalColumn.cs" />
+    <Compile Include="SqlGen\SkipClause.cs" />
+    <Compile Include="SqlGen\SqlBuilder.cs" />
+    <Compile Include="SqlGen\SqlGenerator.cs" />
+    <Compile Include="SqlGen\SqlSelectClauseBuilder.cs" />
+    <Compile Include="SqlGen\SqlSelectStatement.cs" />
+    <Compile Include="SqlGen\SqlWriter.cs" />
+    <Compile Include="SqlGen\Symbol.cs" />
+    <Compile Include="SqlGen\SymbolPair.cs" />
+    <Compile Include="SqlGen\SymbolTable.cs" />
+    <Compile Include="SqlGen\SymbolUsageManager.cs" />
+    <Compile Include="SqlGen\TopClause.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

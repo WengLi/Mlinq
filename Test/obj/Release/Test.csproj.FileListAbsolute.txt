@@ -1,0 +1,8 @@
+D:\Project\Mlinq - bak_v5\Test\bin\Release\Test.exe.config
+D:\Project\Mlinq - bak_v5\Test\bin\Release\Test.exe
+D:\Project\Mlinq - bak_v5\Test\bin\Release\Test.pdb
+D:\Project\Mlinq - bak_v5\Test\bin\Release\Mlinq.dll
+D:\Project\Mlinq - bak_v5\Test\bin\Release\Mlinq.pdb
+D:\Project\Mlinq - bak_v5\Test\obj\Release\Test.csprojResolveAssemblyReference.cache
+D:\Project\Mlinq - bak_v5\Test\obj\Release\Test.exe
+D:\Project\Mlinq - bak_v5\Test\obj\Release\Test.pdb
